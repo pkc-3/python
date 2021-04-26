@@ -3,3 +3,10 @@
 이름:고현석
 내용:파이썬 string 예제 교재 p48
 """
+
+#문자열 더하기
+
+str1 = 'hello'
+str2 = 'Python'
+str3 = str1 + str2
+print('srt3 :',str3)
