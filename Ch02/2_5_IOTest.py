@@ -5,7 +5,7 @@
 """
 
 #파이썬 표준 출력
-print('hello', end='!')#끝에 느낌표 넣기
+print('hello', end='!')#끝에 느낌표 넣기 개행 안함
 print('python')
 
 print('010','1234','1111', sep='-')#중간에 작대기 넣기 separate값
