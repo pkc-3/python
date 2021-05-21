@@ -32,7 +32,7 @@ class multiply2 :
     # 메서드 : 곱셈
     def mul(self):
         return self.x * self.y
-    
+
 obj = multiply2() #기본 생성자
 obj.data(10,20) #동적 멤버변수 생성
 print('곱셈 = ', obj.mul())
