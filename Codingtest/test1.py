@@ -20,16 +20,16 @@ first = data[0]
 # 두번째 숫자
 second = data[1]
 
-# result = 0
-# repeat = k # k값을 보존해야함
-# for i in range(m):
-#
-#     if repeat > 0:
-#         result += first
-#         repeat -= 1
-#     else:
-#         result += second
-#         repeat = k
-#
-# print(result)
+result = 0
+repeat = k # k값을 보존해야함
+for i in range(m):
+
+    if repeat > 0:
+        result += first
+        repeat -= 1
+    else:
+        result += second
+        repeat = k
+
+print(result)
 
